@@ -5328,7 +5328,7 @@
     (property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm" (at 260.35 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.tme.eu/Document/290ebc8eb45551baf154bd67918eccef/SI4435DDY.pdf" (at 262.89 39.37 0)
+    (property "Datasheet" "https://octopart.com/si4435ddy-t1-ge3-vishay-42674275?r=sp" (at 262.89 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "5" (uuid d4511256-d76b-49fb-923d-6968de314624))
