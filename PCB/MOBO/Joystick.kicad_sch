@@ -1163,7 +1163,7 @@
     (property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm" (at 78.74 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 78.74 60.96 0)
+    (property "Datasheet" "https://octopart.com/abm11-16.000mhz-12-b1u-t-abracon-100102755?r=sp" (at 78.74 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid 7ca212aa-d401-47b3-9764-5b54c20777ce))
