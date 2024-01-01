@@ -897,31 +897,6 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 220.98 82.55 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 1f85740e-1f00-4eb2-bad7-e04468769c05)
-    (property "Reference" "#PWR0307" (at 220.98 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 220.98 87.63 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 220.98 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 220.98 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7c886f64-e5c8-4076-9711-39d223842baa))
-    (instances
-      (project "MOBO"
-        (path "/2d62a3c1-c4f2-4921-9f6b-8dc8aef69d64/7ca0e1b4-2467-452a-8d82-c598e33fab6f"
-          (reference "#PWR0307") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Switch:SW_Omron_B3FS") (at 199.39 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 212c38b4-989b-4eda-98ca-a85188d1119d)
@@ -1047,32 +1022,6 @@
         )
         (path "/2d62a3c1-c4f2-4921-9f6b-8dc8aef69d64/7ca0e1b4-2467-452a-8d82-c598e33fab6f"
           (reference "J301") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_Omron_B3FS") (at 215.9 82.55 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 406f1ff7-e623-4ece-b86e-89fd5b170a09)
-    (property "Reference" "SW305" (at 215.9 74.93 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Reset_Button" (at 215.9 77.47 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP" (at 215.9 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://octopart.com/b3f-4000-omron-22510?r=sp" (at 215.9 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 28a5ba1c-abec-4c9d-b245-261a5831591f))
-    (pin "1" (uuid fa0dfaf2-99c0-47d0-b631-b397f93f17cc))
-    (instances
-      (project "MOBO"
-        (path "/2d62a3c1-c4f2-4921-9f6b-8dc8aef69d64/7ca0e1b4-2467-452a-8d82-c598e33fab6f"
-          (reference "SW305") (unit 1)
         )
       )
     )
@@ -1205,6 +1154,31 @@
       (project "MOBO"
         (path "/2d62a3c1-c4f2-4921-9f6b-8dc8aef69d64/7ca0e1b4-2467-452a-8d82-c598e33fab6f"
           (reference "Y301") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 210.82 82.55 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 59b9354b-5672-4455-954f-10305830c913)
+    (property "Reference" "TP301" (at 215.9 81.28 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "RES" (at 217.17 83.82 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 210.82 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 210.82 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a2117f3d-2b6a-4834-9a8e-35751caacd6a))
+    (instances
+      (project "MOBO"
+        (path "/2d62a3c1-c4f2-4921-9f6b-8dc8aef69d64/7ca0e1b4-2467-452a-8d82-c598e33fab6f"
+          (reference "TP301") (unit 1)
         )
       )
     )
