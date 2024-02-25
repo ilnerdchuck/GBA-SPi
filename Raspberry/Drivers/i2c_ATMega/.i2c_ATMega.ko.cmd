@@ -1,0 +1,1 @@
+cmd_/home/chuck/GBA-SPi/Raspberry/Drivers/i2c_ATMega/i2c_ATMega.ko := ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/chuck/GBA-SPi/Raspberry/Drivers/i2c_ATMega/i2c_ATMega.ko /home/chuck/GBA-SPi/Raspberry/Drivers/i2c_ATMega/i2c_ATMega.o /home/chuck/GBA-SPi/Raspberry/Drivers/i2c_ATMega/i2c_ATMega.mod.o;  true

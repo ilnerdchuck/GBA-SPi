@@ -1,0 +1,1 @@
+cmd_/home/chuck/GBA-SPi/Raspberry/Drivers/i2c_ATMega/i2c_ATMega.mod := printf '%s\n'   i2c_ATMega.o | awk '!x[$$0]++ { print("/home/chuck/GBA-SPi/Raspberry/Drivers/i2c_ATMega/"$$0) }' > /home/chuck/GBA-SPi/Raspberry/Drivers/i2c_ATMega/i2c_ATMega.mod

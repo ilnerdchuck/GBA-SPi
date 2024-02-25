@@ -23,7 +23,7 @@ const size_t JOY_BUTTONS_PINS_LEN = 8;
 unsigned long press_time = 0;
  
 void setup() {
-  // First thing: put pwr pin to 5V
+  // First thing: put pwr pin to 5V 
   pinMode(PWR_BUTTON_PIN, INPUT_PULLUP);
 
   // Join I2C bus as slave with address 8
@@ -45,13 +45,14 @@ void setup() {
 void power_off() {
   pinMode(PWR_BUTTON_PIN, OUTPUT);
   digitalWrite(PWR_BUTTON_PIN, LOW);
+  digitalWrite(ledPin, LOW);
 }
  
 // Function that executes whenever data is received from master
 void receiveEvent(int howMany) {
   while (Wire.available()) {
     uint8_t packet = Wire.read();
-    digitalWrite(ledPin, packet);
+    // digitalWrite(ledPin, packet);
 
     if(packet & 0x01 == 0)
       power_off();
