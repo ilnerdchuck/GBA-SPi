@@ -6375,6 +6375,12 @@
 		(uuid "1d872bc5-dbb9-4ca5-8c34-a1bd763f8bf9")
 	)
 	(junction
+		(at 43.18 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1df4b175-ac9d-4e05-b196-5e3f43aa0b50")
+	)
+	(junction
 		(at 109.22 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6445,12 +6451,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6152068d-2840-48a2-b5eb-fc57f2218c91")
-	)
-	(junction
-		(at 43.18 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "69ee0df3-5e74-4370-8f90-7c7ec2508456")
 	)
 	(junction
 		(at 350.52 43.18)
@@ -6594,7 +6594,7 @@
 		(at 43.18 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cb8b5705-2c3d-428c-b5e2-104e1e7f0c36")
+		(uuid "cc4aec7d-1e71-4973-8c18-a40ee198d778")
 	)
 	(junction
 		(at 260.35 85.09)
@@ -6745,6 +6745,16 @@
 			(type default)
 		)
 		(uuid "0a022722-5876-45b4-8b06-ecdd5f2e187f")
+	)
+	(wire
+		(pts
+			(xy 62.23 52.07) (xy 63.5 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a99f2d4-777d-478f-9a2e-1f81d6eeb880")
 	)
 	(wire
 		(pts
@@ -6908,16 +6918,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 54.61) (xy 48.26 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "238ac10b-d573-4146-abce-13b1f6ba236f")
-	)
-	(wire
-		(pts
 			(xy 139.7 208.28) (xy 147.32 208.28)
 		)
 		(stroke
@@ -6955,16 +6955,6 @@
 			(type default)
 		)
 		(uuid "287aaaac-9655-423b-ab57-2267c2a2c87a")
-	)
-	(wire
-		(pts
-			(xy 43.18 52.07) (xy 48.26 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ce12068-f980-462a-81fd-a6beea5f903b")
 	)
 	(wire
 		(pts
@@ -7095,6 +7085,16 @@
 			(type default)
 		)
 		(uuid "42c47a8d-5e9e-40f5-87f9-61f84aefa461")
+	)
+	(wire
+		(pts
+			(xy 43.18 54.61) (xy 46.99 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42eee683-aaf7-4d30-8e09-bcbcb655cc32")
 	)
 	(wire
 		(pts
@@ -7378,7 +7378,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 74.93) (xy 55.88 63.5)
+			(xy 54.61 74.93) (xy 54.61 63.5)
 		)
 		(stroke
 			(width 0)
@@ -7485,6 +7485,16 @@
 			(type default)
 		)
 		(uuid "8050856e-ecd6-4dda-9cac-40146a8374b9")
+	)
+	(wire
+		(pts
+			(xy 43.18 52.07) (xy 46.99 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80aa8089-b21b-4adf-b867-2504b65d088e")
 	)
 	(wire
 		(pts
@@ -7668,7 +7678,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 39.37) (xy 63.5 39.37)
+			(xy 54.61 39.37) (xy 63.5 39.37)
 		)
 		(stroke
 			(width 0)
@@ -7898,6 +7908,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 54.61) (xy 63.5 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d197dcbb-e69e-485f-8b00-093a9c158330")
+	)
+	(wire
+		(pts
 			(xy 43.18 54.61) (xy 43.18 57.15)
 		)
 		(stroke
@@ -8088,7 +8108,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 39.37) (xy 55.88 44.45)
+			(xy 54.61 39.37) (xy 54.61 44.45)
 		)
 		(stroke
 			(width 0)
@@ -8168,7 +8188,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 74.93) (xy 55.88 74.93)
+			(xy 27.94 74.93) (xy 54.61 74.93)
 		)
 		(stroke
 			(width 0)
@@ -8238,6 +8258,19 @@
 		)
 		(uuid 2dcf672e-4ecb-4cd5-9d0b-96c28973359c)
 	)
+	(rectangle
+		(start 38.735 171.45)
+		(end 205.105 271.78)
+		(stroke
+			(width 1)
+			(type dash_dot_dot)
+			(color 255 0 2 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ac3d3840-a1bf-4762-9a74-da7092135314)
+	)
 	(text "Power Latch "
 		(exclude_from_sim no)
 		(at 238.76 19.05 0)
@@ -8259,6 +8292,16 @@
 			(justify left bottom)
 		)
 		(uuid "4b28cc73-cf24-4a08-9c68-4a0b01c4149d")
+	)
+	(text "To be reviewed\n"
+		(exclude_from_sim no)
+		(at 48.26 169.926 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4e15a019-f4bb-4a58-9da4-129eaa49ec22")
 	)
 	(text "0-50 threshold"
 		(exclude_from_sim no)
@@ -8304,14 +8347,14 @@
 		)
 		(uuid "6aa5e0f2-8eb0-4c31-8b69-354edc3a9349")
 	)
-	(label "D-_IN"
-		(at 48.895 54.61 180)
+	(label "D_IN +"
+		(at 43.18 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.1 1.1)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "6cd868cc-c343-45d1-95c8-fdb2b75e312c")
 	)
@@ -8370,14 +8413,14 @@
 		)
 		(uuid "fce81c62-6e5a-4759-b9d0-4c248f546a1e")
 	)
-	(label "D+_IN"
-		(at 48.895 52.07 180)
+	(label "D_IN -"
+		(at 43.18 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.1 1.1)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "ffa159fe-c135-4ed9-857e-45dd2a257212")
 	)
@@ -13364,7 +13407,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Diode_TVS_AKL:USBLC6-2SC6")
-		(at 55.88 52.07 0)
+		(at 54.61 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13372,7 +13415,7 @@
 		(dnp no)
 		(uuid "bf39226b-791e-4b94-92b9-3d5860cf19fb")
 		(property "Reference" "D206"
-			(at 61.595 57.15 0)
+			(at 60.325 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13381,7 +13424,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2SC6"
-			(at 61.595 59.69 0)
+			(at 60.325 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13390,7 +13433,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 55.88 52.07 0)
+			(at 54.61 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13399,7 +13442,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/db59d28d28a96c34f26d05f234ff409c/USBLC6-2.pdf"
-			(at 55.88 52.07 0)
+			(at 54.61 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13408,7 +13451,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 52.07 0)
+			(at 54.61 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
